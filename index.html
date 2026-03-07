@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LovePo - Romantic Quotes & Messages</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+background:linear-gradient(120deg,#ff9a9e,#fad0c4);
+min-height:100vh;
+color:#333;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+background:white;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+color:#ff4b7d;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:#555;
+font-size:14px;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:90px 20px;
+color:white;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:18px;
+max-width:600px;
+margin:auto;
+margin-bottom:25px;
+}
+
+.hero button{
+padding:12px 30px;
+border:none;
+background:white;
+color:#ff4b7d;
+font-size:15px;
+border-radius:30px;
+cursor:pointer;
+}
+
+/* QUOTES */
+
+.quotes{
+padding:60px 8%;
+}
+
+.quotes h2{
+text-align:center;
+margin-bottom:40px;
+color:white;
+}
+
+.quote-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.quote{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.quote p{
+font-size:15px;
+}
+
+.quote span{
+display:block;
+margin-top:10px;
+font-size:13px;
+color:#ff4b7d;
+}
+
+/* SUBMIT SECTION */
+
+.submit{
+background:white;
+padding:60px 8%;
+text-align:center;
+}
+
+.submit input, .submit textarea{
+width:100%;
+max-width:500px;
+margin:10px auto;
+display:block;
+padding:12px;
+border-radius:6px;
+border:1px solid #ddd;
+}
+
+.submit button{
+padding:12px 25px;
+background:#ff4b7d;
+border:none;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* FOOTER */
+
+footer{
+background:#222;
+color:#bbb;
+padding:40px 8%;
+margin-top:40px;
+}
+
+.footer-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:30px;
+}
+
+.footer-title{
+color:white;
+margin-bottom:10px;
+}
+
+.footer-links a{
+display:block;
+text-decoration:none;
+color:#bbb;
+margin-bottom:6px;
+font-size:14px;
+}
+
+.copy{
+text-align:center;
+margin-top:20px;
+font-size:13px;
+color:#777;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">LovePo</div>
+
+<div>
+<a href="#">Home</a>
+<a href="#">Quotes</a>
+<a href="#">Submit</a>
+<a href="#">Contact</a>
+</div>
+
+</nav>
+
+<section class="hero">
+
+<h1>Love Words That Touch The Heart</h1>
+
+<p>
+Discover beautiful romantic quotes and messages
+that express your deepest feelings.
+</p>
+
+<button>Explore Quotes</button>
+
+</section>
+
+<section class="quotes">
+
+<h2>Popular Love Quotes</h2>
+
+<div class="quote-grid">
+
+<div class="quote">
+<p>“I saw that you were perfect, and so I loved you.”</p>
+<span>- LovePo</span>
+</div>
+
+<div class="quote">
+<p>“Every love story is beautiful, but ours is my favorite.”</p>
+<span>- LovePo</span>
+</div>
+
+<div class="quote">
+<p>“You are the reason my heart smiles.”</p>
+<span>- LovePo</span>
+</div>
+
+<div class="quote">
+<p>“In your arms is where I belong.”</p>
+<span>- LovePo</span>
+</div>
+
+</div>
+
+</section>
+
+<section class="submit">
+
+<h2>Submit Your Love Quote</h2>
+
+<input type="text" placeholder="Your Name">
+<textarea rows="4" placeholder="Write your quote..."></textarea>
+<button>Submit Quote</button>
+
+</section>
+
+<footer>
+
+<div class="footer-grid">
+
+<div>
+<div class="footer-title">About LovePo</div>
+<p style="font-size:14px;">
+<a href="https://www.encryptionconsulting.com">https://www.encryptionconsulting.com</a>
+<a href=""></a>
+</p>
+</div>
+
+<div>
+<div class="footer-title">Categories</div>
+<div class="footer-links">
+<a href="#">Romantic Quotes</a>
+<a href="#">Love Messages</a>
+<a href="#">Poetry</a>
+</div>
+</div>
+
+<div>
+<div class="footer-title">Support</div>
+<div class="footer-links">
+<a href="#">Contact</a>
+<a href="#">Privacy Policy</a>
+<a href="#">Terms</a>
+</div>
+</div>
+
+</div>
+
+<div class="copy">
+© 2026 LovePo.site – All Rights Reserved
+</div>
+
+</footer>
+
+</body>
+</html>
